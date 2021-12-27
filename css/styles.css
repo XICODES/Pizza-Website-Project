@@ -1,0 +1,50 @@
+/* utility class */
+.m-t {
+    margin-top: 5rem;
+}
+.main-nav {
+    background: #af4f4f;
+}
+.main-nav .nav-text {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.main-nav .nav-text:hover,
+.main-nav .nav-list .link {
+    color: #fff;
+}
+.main-nav .nav-text:hover,
+.main-nav .nav-list .link:hover {
+    color: hsla(0, 0%, 100%, 0.884);
+}
+.main-nav .nav-list .link {
+    font-weight: 700;
+}
+
+/* Carousel */
+.image-height {
+    height: 550px;
+}
+
+/* About */
+.container-about h2,
+.container-types h3 {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+.container-about .section-text {
+    background: #f5f3f4;
+    padding: 0.3rem 1rem;
+    box-shadow: rgba(2, 12, 12, 0.7) 0px 10px 30px --10px;
+}
+
+/* footer */
+.container-footer {
+    background: #af4f4f;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+}
